@@ -7,12 +7,12 @@
     <Identity
         Name="48508ArgyrouMinas.eu.argyrouminas.test"
         Publisher="CN=C864DBCB-FDA0-47B0-AFB3-BC7C2899BD5F"
-        Version="1.0.1.0" />
+        Version="1.0.2.0" />
     <mp:PhoneIdentity
         PhoneProductId="b64e7f0d-53c2-56f3-84e6-e06e5354257b"
         PhonePublisherId="00000000-0000-0000-0000-000000000000" />
     <Properties>
-        <DisplayName>Hello World</DisplayName>
+        <DisplayName>eu.argyrouminas.test</DisplayName>
         <PublisherDisplayName>ARGYROU MINAS</PublisherDisplayName>
         <Logo>Assets\StoreLogo.png</Logo>
     </Properties>
@@ -25,7 +25,7 @@
     <Applications>
         <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="ArgyrouMinas.HelloWorld.App">
             <uap:VisualElements
-                DisplayName="Hello World"
+                DisplayName="eu.argyrouminas.test"
                 Description="A minimal Hello World app"
                 Square150x150Logo="Assets\Square150x150Logo.png"
                 Square44x44Logo="Assets\Square44x44Logo.png"

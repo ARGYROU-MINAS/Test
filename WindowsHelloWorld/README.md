@@ -7,6 +7,7 @@ not request network, location, camera, microphone, or file-library access.
 The manifest uses the app's reserved Microsoft Store identity:
 
 - Package name: `48508ArgyrouMinas.eu.argyrouminas.test`
+- Reserved display name: `eu.argyrouminas.test`
 - Publisher: `CN=C864DBCB-FDA0-47B0-AFB3-BC7C2899BD5F`
 - Publisher display name: `ARGYROU MINAS`
 
@@ -24,8 +25,8 @@ from the package name. The zero `PhonePublisherId` is the standard placeholder
 for this desktop-only app. The app still targets only `Windows.Desktop` and
 declares no capabilities.
 
-The Store package version is `1.0.1.0`. For each subsequent release, increment
-only the third component: `1.0.2.0`, `1.0.3.0`, and so on (up to `65535` in that
+The Store package version is `1.0.2.0`. For each subsequent release, increment
+only the third component: `1.0.3.0`, `1.0.4.0`, and so on (up to `65535` in that
 component). For a Windows 10/11 UWP package, the Microsoft Store requires a
 nonzero first version component and reserves the fourth component as `0`.
 Therefore `0.0.1.0` is not valid for Store submission.
