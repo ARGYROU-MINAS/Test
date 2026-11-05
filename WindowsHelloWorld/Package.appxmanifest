@@ -2,11 +2,15 @@
 <Package
     xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
     xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
-    IgnorableNamespaces="uap">
+    xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
+    IgnorableNamespaces="uap mp">
     <Identity
         Name="48508ArgyrouMinas.eu.argyrouminas.test"
         Publisher="CN=C864DBCB-FDA0-47B0-AFB3-BC7C2899BD5F"
-        Version="1.0.0.0" />
+        Version="1.0.1.0" />
+    <mp:PhoneIdentity
+        PhoneProductId="b64e7f0d-53c2-56f3-84e6-e06e5354257b"
+        PhonePublisherId="00000000-0000-0000-0000-000000000000" />
     <Properties>
         <DisplayName>Hello World</DisplayName>
         <PublisherDisplayName>ARGYROU MINAS</PublisherDisplayName>
